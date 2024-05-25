@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import typingIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/typing.png';
 import usersIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/users.png';
 import batteryIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/battery.png';
+import location from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/location.png';
 
 import Modal from "./Modal";
 import SocialModal from "./SocialModal";
@@ -65,7 +66,11 @@ function Header() {
                 ))}
             </div>
             <div>
+            <div className="flex items-center space-x-4">
+                <img src={location} alt="Location Icon" className="w-16 h-16" />
+                <p className="font-pixelify text-6xl">Bengaluru</p>
                 <img src={batteryIcon} alt="Battery Icon" className="w-16 h-16" />
+            </div>
             </div>
             <Modal isOpen={isModalOpen} onClose={closeModal} />
             <SocialModal isOpen={isSocialOpen} onClose={closeSocialModal} />

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import fileIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/file.png';
 import hatIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/hat.png';
-// import Modal from "./Modal"; // Import the Modal component here
 import Modal from "./aboutMeModal";
+
 function Mainscreen() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -22,7 +22,9 @@ function Mainscreen() {
                     <span className="mt-2 bg-white text-black px-1 py-1">GET NISHA</span>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src={hatIcon} alt="Hat Icon" className="w-28 h-28 cursor-pointer" />
+                    <a href="https://github.com/nisharathod231/Portfolio-Website" target="_blank" rel="noopener noreferrer">
+                        <img src={hatIcon} alt="Hat Icon" className="w-28 h-28 cursor-pointer" />
+                    </a>
                     <span className="mt-2 bg-white text-black px-1 py-1">Sourcecode</span>
                 </div>
             </div>

@@ -22,7 +22,7 @@ function Modal({ isOpen, onClose }) {
                         <img src={pfp} alt="Profile" className="w-21 h-21 rounded-full" />
                     </div>
                     <div className="mt-4">
-                        <p className="font-pixelify text-5xl px-7 py-1">Nisha Rathod</p>
+                        <p className="font-pixelify text-5xl px-7 py-1">Nisha Rathod</p> 
                         <p className="font-pixelify text-4xl px-7 py-2">kaizokuō ni ore wa naru! -Luffy</p>
                         <p className="font-pixelify text-xl px-7 py-2">I am currently pursuing my Masters in Computer Science from IIIT, Bengaluru. My Btech is in Electronics & Telecommunication from KJSIT, Mumbai. I enjoy learning and collaborating with my peers. When I am not coding you'll find me playing guitar or video games. Too much of this planet explore too less time!</p>
                         <p className="font-pixelify text-4xl px-7 py-2">WHAT HAVE I DONE</p>

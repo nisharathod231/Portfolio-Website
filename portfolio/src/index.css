@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom background image class */
+.bg-custom {
+    background-image: url('src/assets/bgintro.jpg');
+    background-size: cover;
+    background-position: center;
+}

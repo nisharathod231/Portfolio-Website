@@ -4,18 +4,24 @@ import usersIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfo
 import batteryIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/battery.png';
 
 import Modal from "./Modal";
+import SocialModal from "./SocialModal";
 import Projects from "./Projects";
 
 function Header() {
     const [active, setActive] = useState("");
     const [isTyping, setIsTyping] = useState(true);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isSocialOpen, setIsSocialOpen] = useState(false);
+
 
     const handleClick = (option) => {
         console.log("Opening modal");
         setActive(option);
         if (option === "projects") {
             setIsModalOpen(true);
+        }
+        if (option === "social") {
+            setIsSocialOpen(true);
         }
     };
     
@@ -28,6 +34,11 @@ function Header() {
         console.log("Closing modal");
         setIsModalOpen(false);
     };
+
+    const closeSocialModal = () => {
+        console.log("Closing modal");
+        setIsSocialOpen(false);
+    };
     
 
     return (
@@ -39,7 +50,7 @@ function Header() {
                     className="w-16 h-16 cursor-pointer"
                     onClick={toggleIcon}
                 />
-                {["Projects", "Volunteer", "Social"].map((option) => (
+                {["Projects", "Social"].map((option) => (
                     <button
                         key={option}
                         className={`font-pixelify text-6xl px-4 py-2 transition-colors duration-300 ${
@@ -57,6 +68,8 @@ function Header() {
                 <img src={batteryIcon} alt="Battery Icon" className="w-16 h-16" />
             </div>
             <Modal isOpen={isModalOpen} onClose={closeModal} />
+            <SocialModal isOpen={isSocialOpen} onClose={closeSocialModal} />
+
         </div>
     );
 }

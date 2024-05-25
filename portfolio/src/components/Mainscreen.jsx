@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import fileIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/file.png';
 import hatIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/portfolio/src/assets/hat.png';
-import Modal from "./Modal"; // Import the Modal component here
-
+// import Modal from "./Modal"; // Import the Modal component here
+import Modal from "./aboutMeModal";
 function Mainscreen() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 

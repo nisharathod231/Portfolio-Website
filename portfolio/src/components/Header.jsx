@@ -5,7 +5,7 @@ import batteryIcon from '/Users/nisharathod/Desktop/Notes/Portfolio-Website/port
 
 import Modal from "./Modal";
 import SocialModal from "./SocialModal";
-import Projects from "./Projects";
+import Projects from "./aboutMeModal";
 
 function Header() {
     const [active, setActive] = useState("");

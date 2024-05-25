@@ -19,7 +19,7 @@ function Mainscreen() {
             <div className="absolute right-4 top-4 flex flex-col items-center space-y-4">
                 <div className="flex flex-col items-center">
                     <img src={fileIcon} alt="File Icon" className="w-28 h-28 cursor-pointer" onClick={openModal} />
-                    <span className="mt-2 bg-white text-black px-1 py-1">READ ME</span>
+                    <span className="mt-2 bg-white text-black px-1 py-1">GET NISHA</span>
                 </div>
                 <div className="flex flex-col items-center">
                     <img src={hatIcon} alt="Hat Icon" className="w-28 h-28 cursor-pointer" />

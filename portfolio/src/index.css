@@ -4,7 +4,7 @@
 
 /* Custom background image class */
 .bg-custom {
-    background-image: url('src/assets/bgintro.jpg');
+    background-color: black;
     background-size: cover;
     background-position: center;
 }

@@ -24,8 +24,12 @@ function Modal({ isOpen, onClose }) {
                     <div className="mt-4">
                         <p className="font-pixelify text-5xl px-7 py-1">Nisha Rathod</p>
                         <p className="font-pixelify text-4xl px-7 py-2">kaizokuō ni ore wa naru! -Luffy</p>
-                        <p className="font-pixelify text-xl px-7 py-2">I am currently pursuing my Masters in Computer Science from IIIT, Bengaluru. My Btech is in Electronics & Telecommunication from KJSIT, Mumbai. I enjoy learning and collaborating with my peers. When I am not coding you'll find me playing guitar or video games. The world and its people are amazing!</p>
-
+                        <p className="font-pixelify text-xl px-7 py-2">I am currently pursuing my Masters in Computer Science from IIIT, Bengaluru. My Btech is in Electronics & Telecommunication from KJSIT, Mumbai. I enjoy learning and collaborating with my peers. When I am not coding you'll find me playing guitar or video games. Too much of this planet explore too less time!</p>
+                        <p className="font-pixelify text-4xl px-7 py-2">WHAT HAVE I DONE</p>
+                        <p className="font-pixelify text-xl px-7 py-2">I took a deliberate pause from my professional career to dedicate my focus to preparing for the GATE CSE. I stumbeled upon a workshop from Bandai Namco Studios, I have always adored their work. I got a chance to work with them on their Dark Pictures Project while I was preparing for my entrance exams.</p>
+                        <p className="font-pixelify text-4xl px-7 py-2">PORTFOLIO WEBSITE</p>
+                        <p className="font-pixelify text-xl px-7 py-2">This minimal portfolio website was built using Vite for a smooth development experience, React and JavaScript for a dynamic and interactive user interface, and Tailwind CSS for a clean and responsive design.
+Want to see how it's done? Click the "Source Code" button for the code and a step-by-step guide on building a similar website yourself!</p>
                     </div>
                 </div>
             </div>

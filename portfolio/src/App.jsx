@@ -17,20 +17,20 @@ function App() {
       <Modal />
       <div className="fixed bottom-4 left-4 flex space-x-2">
         <button
-          className="w-8 h-8 bg-[#f59fc0] rounded-full border-b-4 border-black"
-          onClick={() => changeColor('#f59fc0')}
+          className="w-8 h-8 bg-[#4793AF] rounded-full border-b-4 border-black"
+          onClick={() => changeColor('#4793AF')}
         ></button>
         <button
-          className="w-8 h-8 bg-[#79a8f2] rounded-full border-b-4 border-black"
-          onClick={() => changeColor('#79a8f2')}
+          className="w-8 h-8 bg-[#FFC470] rounded-full border-b-4 border-black"
+          onClick={() => changeColor('#FFC470')}
         ></button>
         <button
-          className="w-8 h-8 bg-[#f5c49f] rounded-full border-b-4 border-black"
-          onClick={() => changeColor('#f5c49f')}
+          className="w-8 h-8 bg-[#DD5746] rounded-full border-b-4 border-black"
+          onClick={() => changeColor('#DD5746')}
         ></button>
         <button
-          className="w-8 h-8 bg-[#c6f59f] rounded-full border-b-4 border-black"
-          onClick={() => changeColor('#c6f59f')}
+          className="w-8 h-8 bg-[#43766C] rounded-full border-b-4 border-black"
+          onClick={() => changeColor('#43766C')}
         ></button>
         <button
           className="w-8 h-8 bg-gray-500 rounded-full border-b-4 border-black"

@@ -1,4 +1,5 @@
 # Portfolio-Website Setup & Hosting Guide
+
 - ## Create project with Vite and Tailwind:
     ```bash
     npm create vite@latest
@@ -78,8 +79,13 @@ Once done, your website is sucessfully hosted, go back to your dashboard, on the
 
 You might encounter issue with images not loading properly, for that, upload your images to https://imgur.com and instead of adding source path to images copy url and use it.
 
-  
-  
+
+# Website Screenshots
+<img width="1440" alt="Screenshot 2024-05-26 at 12 55 17 PM" src="https://github.com/nisharathod231/Portfolio-Website/assets/163638504/7ce89020-848d-475b-90fb-5109302a8ff6">
+
+<img width="1440" alt="Screenshot 2024-05-26 at 1 01 21 PM" src="https://github.com/nisharathod231/Portfolio-Website/assets/163638504/5829794c-4191-4979-a185-7f31a97407d6">
+
+<img width="1439" alt="Screenshot 2024-05-26 at 1 01 50 PM" src="https://github.com/nisharathod231/Portfolio-Website/assets/163638504/fd02312b-6435-4ae5-8f60-26e8bbfbb1fe">
 
 
   

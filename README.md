@@ -1,4 +1,4 @@
-<img width="759" alt="Screenshot 2024-05-26 at 12 43 31 PM" src="https://github.com/nisharathod231/Portfolio-Website/assets/163638504/74ef1277-6624-4b2e-b353-471dabd19109"># Portfolio-Website Setup Guide
+# Portfolio-Website Setup & Hosting Guide
 - ## Create project with Vite and Tailwind:
     ```bash
     npm create vite@latest
